@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>不同天气状况下除冰液保持时间</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/popup-box.css" rel="stylesheet" type="text/css" media="all"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content=""/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+<h1>不同天气状况下除冰液保持时间（分钟）</h1>
+<div class="w3layouts">
+    <div class="signin-agile">
+        <h2>一型除冰液</h2>
+        <form action="#" id="form1">
+            <input type="text" id="temperature1" placeholder="温度-30 - +15"><br/>
+            <input type="radio" name="time1" class="add" style="margin-bottom:10px" value="白天" checked>白天
+            <input type="radio" name="time1" class="add" value="夜间">夜间
+            <select class="select" id="visibility1">
+                <option value="">能见度（米）</option>
+                <option value="无">无</option>
+                <option value="4000">≥4000</option>
+                <option value="3200">3200</option>
+                <option value="2800">2800</option>
+                <option value="2400">2400</option>
+                <option value="2000">2000</option>
+                <option value="1600">1600</option>
+                <option value="1200">1200</option>
+                <option value="800">800</option>
+                <option value="400">≤400</option>
+            </select>
+            <p class="pfont">查询结果：天气状况:预计保持时间（分钟）</p>
+            <p class="fontSize"></p>
+            <input type="button" id="button1" value="查询 ">
+        </form>
+    </div>
+    <div class="signin-agile" style="background-color: rgb(233, 234, 236);">
+        <h2>四型除冰液</h2>
+        <form action="#" id="form4">
+            <input type="text" id="temperature4" placeholder="温度-30 - +15"><br/>
+
+            <input type="radio" name="time4" style="margin-bottom:10px" value="白天" checked>白天
+            <input type="radio" name="time4" value="夜间">夜间
+
+            <select class="select" id="visibility4">
+                <option value="">能见度（米）</option>
+                <option value="无">无</option>
+                <option value="4000">≥4000</option>
+                <option value="3200">3200</option>
+                <option value="2800">2800</option>
+                <option value="2400">2400</option>
+                <option value="2000">2000</option>
+                <option value="1600">1600</option>
+                <option value="1200">1200</option>
+                <option value="800">800</option>
+                <option value="400">≤400</option>
+            </select>
+            <!--<select class="select">
+                <option>天气状况</option>
+                <option value="小雨夹雪">小雨夹雪</option>
+                <option value="冻雾">冻雾</option>
+                <option value="极轻度降雪">极轻度降雪</option>
+                <option value="轻度降雪">轻度降雪</option>
+                <option value="中度降雪">中度降雪</option>
+                <option value="重度降雪">重度降雪</option>
+            </select>-->
+            <p class="pfont">查询结果：天气状况:预计保持时间（分钟）</p>
+            <p class="fontSize"></p>
+            <input type="button" id="button4" value="查询 ">
+        </form>
+    </div>
+    <div class="clear"></div>
+</div>
+<script src="js/data.js"></script>
+<script>
+
+
+</script>
+<body>
+</html>
